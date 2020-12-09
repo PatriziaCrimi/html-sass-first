@@ -1,0 +1,24 @@
+$main_color: #0B0B61;
+$secondary_color: #0101DF;
+$btn_measure: 5px;
+
+
+h1 {
+  color: $main_color;
+}
+
+h2 {
+  color: $secondary_color;
+}
+
+p {
+  color: $secondary_color;
+}
+
+a.btn {
+  text-decoration: none;
+  background-color: #A9E2F3;
+  color: $main_color;
+  padding: $btn_measure;
+  border-radius: $btn_measure;
+}

@@ -1,20 +1,48 @@
+/* Common Features */
+
+body {
+  text-align: center;
+}
+
 h1 {
-  color: #0B0B61;
+  color: #08088A;
+  padding: 25px;
+  font-weight: bold;
+  font-size: 50px;
 }
 
 h2 {
-  color: #0101DF;
+  color: #08088A;
+  padding: 12.5px;
+  margin-top: 50px;
+  font-size: 25px;
 }
 
 p {
   color: #0101DF;
+  font-family: sans-serif;
+  text-align: justify;
+  padding: 12.5px;
 }
 
 a.btn {
   text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 16.6666666667px;
   background-color: #A9E2F3;
-  color: #0B0B61;
-  padding: 5px;
+  color: #08088A;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
   border-radius: 5px;
+  border: 2px solid #0101DF;
+  opacity: 0.8;
+  transition: opacity 0.25s;
+}
+
+a.btn:hover {
+  opacity: 1;
 }
 

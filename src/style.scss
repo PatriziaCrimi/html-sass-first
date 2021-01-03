@@ -1,9 +1,11 @@
 // Variables
 $main_color: #08088A;
 $secondary_color: #0101DF;
-$btn_measure: 5px;
-$padding_titles: 25px;
 $title_size: 50px;
+$padding_titles: 25px;
+$padding_btn: 5px;
+$btn_width: 150px;
+$margin_unit: 10px;
 
 /* Common Features */
 * {
@@ -39,20 +41,22 @@ p {
   font-family: sans-serif;
   text-align: justify;
   padding: $padding_titles / 2;
+  margin-bottom: $margin_unit;
 }
 
 a.btn {
+  display: block;
+  width: $btn_width;
+  margin: 0 auto;
   text-decoration: none;
   font-family: sans-serif;
   font-weight: bold;
   font-size: $title_size / 3;
   background-color: #A9E2F3;
   color: $main_color;
-  padding-top: $btn_measure;
-  padding-bottom: $btn_measure;
-  padding-right: $btn_measure * 2;
-  padding-left: $btn_measure * 2;
-  border-radius: $btn_measure;
+  padding-top: $padding_btn;
+  padding-bottom: $padding_btn;
+  border-radius: 5px;
   border: 2px solid $secondary_color;
   opacity: 0.8;
   transition: opacity 0.25s;
